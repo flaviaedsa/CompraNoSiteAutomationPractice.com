@@ -1,5 +1,3 @@
-# CompraNoSiteAutomationPractice.com
-
 Realização de uma compra no Site AutomationPractice.com
 
 Funcionalidades automatizadas
@@ -29,7 +27,9 @@ Instruções de configuração e execução do script
 
 	http://www.oracle.com/technetwork/pt/java/javase/downloads/jdk8-downloads-2133151.html
 
-2. Baixar o driver do Google chrome e extrair em uma pasta qualquer.
+   1.1 Necessário criar uma variável de ambiente chamada "JAVA_HOME" e no diretório informar o caminho onde está o JDK do Java (Exemplo: "C:\Program Files\Java\jdk1.8.0_181").
+
+2. Baixar o driver do Google chrome, criar a pasta "C:\Selenium\Drivers\" e extrair o driver nessa pasta.
 
 	https://sites.google.com/a/chromium.org/chromedriver/downloads
 
@@ -41,11 +41,8 @@ Instruções de configuração e execução do script
 
 	https://www.java.com/pt_BR/download/help/path.xml
 	
-4. Acessar o prompt de comando e navegar até o diretório do projeto e executar os comandos:
+4. Acessar o prompt de comando e navegar até o diretório do projeto e executar o comando:
 	
-	cd/ + o caminho do diretório do projeto
-	ls para estar dentro do arquivo pom.xml
-	mvn clean test
-
+	mvn clean test -Dtest=RealizarCompraComSucesso
 
 
