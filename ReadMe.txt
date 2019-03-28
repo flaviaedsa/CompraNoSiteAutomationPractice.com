@@ -1,6 +1,4 @@
-# CompraNoSiteAutomationPractice.com
-
-Realiza√ß√£o de uma compra no Site AutomationPractice.com
+RealizaÁ„o de uma compra no Site AutomationPractice.com
 
 Funcionalidades automatizadas
 
@@ -8,22 +6,22 @@ Funcionalidades automatizadas
 2. Adicionar o produto escolhido no carrinho
 3. Prosseguir para o checkout
 4. Validar se o produto foi corretamente adicionado ao carrinho
-5. Realizar o cadastro do cliente preenchendo todos os campos obrigat√≥rios dos formul√°rios
-6. Validar se o endere√ßo est√° correto
-7. Aceitar os termos de servi√ßo
+5. Realizar o cadastro do cliente preenchendo todos os campos obrigatÛrios dos formul·rios
+6. Validar se o endereÁo est· correto
+7. Aceitar os termos de serviÁo
 8. Validar o valor total da compra
-9. Selecionar um m√©todo de pagamento
+9. Selecionar um mÈtodo de pagamento
 10. Confirmar a compra e validar se foi finalizada com sucesso.
 
 Estrututa do projeto
 
 1. Linguagem utilizada: Java
 2. Framework utilizado: Selenium
-3. Padr√£o utilizado: PageObject 
-4. Navegador para execu√ß√£o dos testes: Google chrome
-5. Screenshot evidenciando as valida√ß√µes.
+3. Padr„o utilizado: PageObject 
+4. Navegador para execuÁ„o dos testes: Google chrome
+5. Screenshot evidenciando as validaÁıes.
 
-Instru√ß√µes de configura√ß√£o e execu√ß√£o do script
+InstruÁıes de configuraÁ„o e execuÁ„o do script
 
 1. Instalar o Java JDK.   
 
@@ -37,15 +35,14 @@ Instru√ß√µes de configura√ß√£o e execu√ß√£o do script
 	
 	https://maven.apache.org/download.cgi
 
-  3.1 Na pasta onde os arquivos foram extra√≠dos existe a pasta bin e dentro dela o arquivo mvn.exe. √â necess√°rio adicionar o diret√≥rio onde est√° o bin√°rio do maven √† vari√°vel de ambiente Path.
+  3.1 Na pasta onde os arquivos foram extraÌdos existe a pasta bin e dentro dela o arquivo mvn.exe. … necess·rio adicionar o diretÛrio onde est· o bin·rio do maven ‡ vari·vel de ambiente Path.
 
 	https://www.java.com/pt_BR/download/help/path.xml
 	
-4. Acessar o prompt de comando e navegar at√© o diret√≥rio do projeto e executar os comandos:
+4. Acessar o prompt de comando e navegar atÈ o diretÛrio do projeto e executar os comandos:
 	
-	cd/ + o caminho do diret√≥rio do projeto
+	cd/ + o caminho do diretÛrio do projeto
 	ls para estar dentro do arquivo pom.xml
 	mvn clean test
-
 
 

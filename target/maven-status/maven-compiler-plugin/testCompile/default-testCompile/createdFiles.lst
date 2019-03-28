@@ -1,0 +1,11 @@
+pages\CheckoutPagePayment.class
+pages\VitrinePage.class
+pages\BasePage.class
+suporte\Generator.class
+pages\CheckoutPageSignIn.class
+pages\CheckoutPageSummary.class
+suporte\Screenshot.class
+pages\CheckoutPageAddress.class
+pages\CheckoutPageShipping.class
+tests\RealizarCompraComSucesso.class
+suporte\DriverWeb.class
