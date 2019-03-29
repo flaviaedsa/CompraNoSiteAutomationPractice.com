@@ -37,11 +37,11 @@ Instruções de configuração e execução do script
 	
 	https://maven.apache.org/download.cgi
 
-  3.1 Na pasta onde os arquivos foram extraídos existe a pasta bin e dentro dela o arquivo mvn.exe. É necessário adicionar o diretório onde está o binário do maven à variável de ambiente Path.
+   3.1 Na pasta onde os arquivos foram extraídos existe a pasta bin e dentro dela o arquivo mvn.exe. É necessário adicionar o diretório onde está o binário do maven à variável de ambiente Path.
 
 	https://www.java.com/pt_BR/download/help/path.xml
 	
-4. Acessar o prompt de comando e navegar até o diretório do projeto e executar o comando:
+4. Acessar o prompt de comando, navegar até o diretório do projeto e executar o comando:
 	
 	mvn clean test -Dtest=RealizarCompraComSucesso
 
